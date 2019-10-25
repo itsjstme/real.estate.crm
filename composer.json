@@ -1,0 +1,8 @@
+{
+    "require": {
+        "cdaguerre/php-trello-api": "@dev",
+        "symfony/http-foundation": "^4.3",
+        "nategood/httpful": "*",
+        "curl/curl": "^2.2"
+    }
+}
