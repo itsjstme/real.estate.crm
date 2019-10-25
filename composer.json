@@ -1,8 +1,16 @@
 {
+    "name": "Composer Script",
+    "description": "An example to demonstrate the use of Composer scripts",
+    "version": "1.0.0",    
     "require": {
         "cdaguerre/php-trello-api": "@dev",
         "symfony/http-foundation": "^4.3",
         "nategood/httpful": "*",
         "curl/curl": "^2.2"
-    }
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "setup.sh"
+        ]
+    }    
 }
